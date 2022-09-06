@@ -1,12 +1,22 @@
 @import "null.css";
+@import "preloader.css";
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap');
-@import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+//@import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna');
 
 /*
 font-family: 'Playfair Display', serif;
 font-family: 'PT Sans', sans-serif;
 font-family: 'Post No Bills Jaffna', sans-serif;
 */
+
+@font-face {
+    font-family: "Post No Bills Jaffna";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Post No Bills Jaffna"),
+         url("../fonts/PostNoBillsJaffna-Bold.woff2") format("woff2"),
+         url("/fonts/PostNoBillsJaffna-Bold.woff") format("woff");
+  }
 
 
 body{
