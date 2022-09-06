@@ -1,0 +1,13 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/post-no-bills-jaffna");
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Post No Bills Jaffna', sans-serif;
+*/
+body {
+  font-family: "PT Sans", sans-serif;
+  line-height: 21px;
+  font-weight: 400;
+}/*# sourceMappingURL=index.css.map */
