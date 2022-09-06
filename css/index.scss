@@ -12,5 +12,49 @@ font-family: 'Post No Bills Jaffna', sans-serif;
 body{
     font-family: 'PT Sans', sans-serif;
     line-height: 21px;
-    font-weight: 400;
+}
+
+._content{
+    max-width: 1095px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+header{
+    .header-top{
+        padding: 1rem 0;
+
+        background: #000000;
+
+        font-size: 12px;
+        line-height: 16px;
+        color: #969696;
+
+        .header-top-flex{
+            display: flex;
+            justify-content: space-between;
+
+            .header-contact{
+                display: flex;
+
+                img{padding-right: 1.1rem;}
+
+                div{padding-right: 0.71rem;}
+            }
+    
+            .header-cab{
+                display: flex;
+
+                img{
+                    padding-right: 1.35rem;
+                }
+            }
+        } 
+    }
+    
+
+    //.header-bottom{
+
+    //}
 }
