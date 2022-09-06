@@ -10,7 +10,7 @@ font-family: 'Post No Bills Jaffna', sans-serif;
   font-family: "Post No Bills Jaffna";
   font-style: normal;
   font-weight: 700;
-  src: local("Post No Bills Jaffna"), url("../fonts/PostNoBillsJaffna-Bold.woff2") format("woff2"), url("/fonts/PostNoBillsJaffna-Bold.woff") format("woff");
+  src: local("Post No Bills Jaffna"), url("../fonts/PostNoBillsJaffna-Bold.woff") format("woff");
 }
 body {
   font-family: "PT Sans", sans-serif;
