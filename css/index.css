@@ -170,10 +170,14 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   left: 0;
   height: calc(100vh - 124px);
   width: 100vw;
-  z-index: 1;
+  z-index: 3;
   text-align: center;
   text-transform: uppercase;
   overflow: hidden;
+  /*.main-back:hover{
+      transition: 0.7s;
+      filter: brightness(1.20);
+  }*/
 }
 .main .main-back {
   width: 100%;
@@ -182,15 +186,10 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../img/main-back.png");
+  background-image: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../img/main-back.png");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0.7s;
-}
-.main .main-back:hover {
-  transition: 0.7s;
-  filter: brightness(1.2);
 }
 .main .main-logo {
   padding: 94px 61px;
