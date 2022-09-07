@@ -274,9 +274,25 @@ footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe {
 footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe input {
   width: 210px;
   height: 42px;
-  background-color: rgba(255, 255, 255, 0.4);
   padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
+  color: #D0D0D0;
+}
+footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe input::-moz-placeholder {
+  font-size: 14px;
+  line-height: 150%;
+  color: #D0D0D0;
+}
+footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 150%;
+  color: #D0D0D0;
+}
+footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe input::placeholder {
+  font-size: 14px;
+  line-height: 150%;
+  color: #D0D0D0;
 }
 footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe button {
   padding: 10px 20px;
