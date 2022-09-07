@@ -261,7 +261,44 @@ header{
     }
 }
 
+.partners{
+    background: #0F0F0F;
+    text-align: center;
 
+    h1{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+
+        padding-top: 90px;
+    }
+
+    .line{
+        width: 120px;
+        height: 1px;
+        border-top: 1px solid #FFFFFF;
+
+        display: inline-block;
+
+        margin-top: 45px;
+    }
+
+    .partners-icons-flex{
+        padding: 0 267px;
+
+        display: flex;
+        justify-content: space-between;
+
+        padding-top: 66px;
+        padding-bottom: 106px;
+
+        align-items: center;
+    }
+}
 
 footer{
     .footer-top{

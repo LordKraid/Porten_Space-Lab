@@ -217,6 +217,36 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   line-height: 150%;
 }
 
+.partners {
+  background: #0F0F0F;
+  text-align: center;
+}
+.partners h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 90px;
+}
+.partners .line {
+  width: 120px;
+  height: 1px;
+  border-top: 1px solid #FFFFFF;
+  display: inline-block;
+  margin-top: 45px;
+}
+.partners .partners-icons-flex {
+  padding: 0 267px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 66px;
+  padding-bottom: 106px;
+  align-items: center;
+}
+
 footer .footer-top {
   background-image: linear-gradient(0deg, rgba(15, 15, 15, 0.25), rgba(15, 15, 15, 0.25)), url("../img/footer-back.png");
   background-position: 50% 100%;
