@@ -24,6 +24,10 @@ body {
   padding: 0 15px;
 }
 
+header {
+  position: relative;
+  z-index: 2;
+}
 header .header-top {
   padding: 1rem 0;
   background: #000000;
@@ -58,6 +62,11 @@ header .header-top .header-top-flex .header-contact a:active {
 }
 header .header-top .header-top-flex .header-cab {
   display: flex;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */ /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 header .header-top .header-top-flex .header-cab img {
   padding-right: 1.35rem;
@@ -101,6 +110,11 @@ header .header-bottom .header-bottom-flex .header-logo:active {
 header .header-bottom .header-bottom-flex menu {
   display: flex;
   align-self: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */ /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 header .header-bottom .header-bottom-flex menu nav {
   display: flex;
@@ -145,4 +159,48 @@ header .header-bottom .header-bottom-flex menu .menu-icons img:active {
 header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   padding-right: 45px;
   padding-left: 15px;
+}
+
+.main {
+  position: absolute;
+  top: 124px;
+  left: 0;
+  height: calc(100vh - 124px);
+  width: 100vw;
+  z-index: 1;
+  background-image: url("../img/main-back.png");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .main-logo {
+  padding: 94px 61px;
+  border: 4px solid #FFFFFF;
+  display: inline-block;
+}
+.main .main-logo h1 {
+  font-family: "Post No Bills Jaffna";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 65px;
+  border-bottom: 2px solid #FFFFFF;
+  display: inline-block;
+}
+.main .main-logo h2 {
+  padding-top: 7px;
+  font-size: 22px;
+  line-height: 28px;
+}
+.main .main-text {
+  margin-top: 80px;
+  display: inline-block;
+  width: 750px;
+  font-size: 16px;
+  line-height: 150%;
 }/*# sourceMappingURL=index.css.map */
