@@ -182,7 +182,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   background-image: url("../img/main-back.png");
   background-position: 50% 100%;
   background-repeat: no-repeat;
-  background-size: 110%;
+  background-size: cover;
   transition: 0.7s;
 }
 .main .main-back:hover {
