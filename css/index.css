@@ -217,6 +217,85 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   line-height: 150%;
 }
 
+footer .footer-top {
+  background-image: linear-gradient(0deg, rgba(15, 15, 15, 0.25), rgba(15, 15, 15, 0.25)), url("../img/footer-back.png");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .footer-top .footer-top-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 67px;
+}
+footer .footer-top .footer-top-flex div {
+  flex-basis: 33.333%;
+}
+footer .footer-top .footer-top-flex h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+footer .footer-top .footer-top-flex p {
+  line-height: 150%;
+}
+footer .footer-top .footer-top-flex .column-categories {
+  padding-left: 20px;
+}
+footer .footer-top .footer-top-flex .column-categories button {
+  transition: 0.1s;
+  font-size: 14px;
+  line-height: 150%;
+  color: #D0D0D0;
+  background-color: #0F0F0F;
+  padding: 10px 20px;
+  margin-right: 6px;
+  margin-bottom: 20px;
+}
+footer .footer-top .footer-top-flex .column-categories button:hover {
+  transition: 0.1s;
+  background-color: #3d3d3d;
+  color: #FFFFFF;
+}
+footer .footer-top .footer-top-flex .column-categories button:active {
+  transition: 0.1s;
+  background-color: #969696;
+  color: #0F0F0F;
+}
+footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe {
+  display: flex;
+  margin-top: 26px;
+}
+footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe input {
+  width: 210px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  font-size: 16px;
+}
+footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe button {
+  padding: 10px 20px;
+  height: 100%;
+  background-color: #0F0F0F;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  transition: 0.2s;
+}
+footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe button:hover {
+  transition: 0.2s;
+  background-color: #3d3d3d;
+}
+footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe button:active {
+  transition: 0.2s;
+  background-color: #969696;
+  color: #0F0F0F;
+}
 footer .footer-bottom {
   background: #0F0F0F;
   padding: 17px 0;
