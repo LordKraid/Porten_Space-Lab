@@ -223,6 +223,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
 }
 .new-collection .season-2021 {
   flex-basis: 54%;
+  flex-grow: 1;
   background: #000000;
   text-align: center;
 }
@@ -283,6 +284,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 0.5s;
   flex-basis: 46%;
   display: flex;
   align-items: flex-end;
@@ -330,10 +332,86 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   background-color: rgba(0, 0, 0, 0.9);
   transform: scale(0.97);
 }
+.new-collection .catalog:hover {
+  transition: 0.5s;
+  filter: brightness(1.2);
+}
 .new-collection .line {
   width: 120px;
   border-bottom: 1px solid #FFFFFF;
   display: inline-block;
+}
+
+.collection-2018 {
+  display: flex;
+  overflow: hidden;
+}
+.collection-2018 .collection-2018-back {
+  flex-basis: 46%;
+  background-image: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../img/collection-back.png");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+}
+.collection-2018 .collection-2018-back:hover {
+  transition: 0.5s;
+  filter: brightness(1.2);
+}
+.collection-2018 .collection-2018-content {
+  background: #000000;
+  flex-basis: 54%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+.collection-2018 .collection-2018-content .collection-2018-content-flex {
+  text-align: center;
+  align-items: center;
+}
+.collection-2018 .collection-2018-content .collection-2018-content-flex h1 {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.collection-2018 .collection-2018-content .collection-2018-content-flex .line {
+  display: inline-block;
+  border-bottom: 1px solid #FFFFFF;
+  margin: 40px 0;
+  width: 120px;
+}
+.collection-2018 .collection-2018-content .collection-2018-content-flex p {
+  font-size: 14px;
+  line-height: 150%;
+  margin-bottom: 64px;
+  width: 630px;
+}
+.collection-2018 .collection-2018-content .collection-2018-content-flex button {
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 12px 28px;
+  border: 1px solid #FFFFFF;
+  background-color: rgba(61, 61, 61, 0);
+  transition: 0.2s;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */ /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+.collection-2018 .collection-2018-content .collection-2018-content-flex button:hover {
+  transition: 0.2s;
+  background-color: rgba(61, 61, 61, 0.5);
+  transform: scale(1.05);
+}
+.collection-2018 .collection-2018-content .collection-2018-content-flex button:active {
+  transition: 0.2s;
+  background-color: rgba(61, 61, 61, 0.9);
+  transform: scale(0.97);
 }
 
 .partners {
