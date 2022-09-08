@@ -23,7 +23,7 @@ body{
     color: #FFFFFF;
     max-width: 100vw;
     min-width: 1080px;
-    //overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 ._content{
@@ -506,6 +506,147 @@ header{
                 transition: 0.2s;
                 background-color: rgba($color: #3d3d3d, $alpha: 0.9);
                 transform: scale(0.97);
+            }
+        }
+    }
+}
+
+.new-watchs{
+    background: #000000;
+    text-align: center;
+
+    h1{
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-transform: uppercase;
+
+        padding-top: 120px;
+        margin-bottom: 40px;
+    }
+
+    .line{
+        width: 120px;
+        border-bottom: 1px solid #FFFFFF;
+        display: inline-block;
+    }
+
+    .new-watchs-grid{
+        display: grid;
+        grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+        grid-template-rows: 55% 45%;
+        justify-content: space-between;
+        align-content: space-between;
+        
+        max-width: 1180px;
+        margin: 80px auto 0;
+        padding-bottom: 150px;
+
+        text-align: left;
+
+        #watch-card7{
+            .watch-back{
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+
+        #watch-card8{
+
+            .watch-back{
+                background-image: linear-gradient(0deg, rgba(25, 27, 28, 0.5), rgba(25, 27, 28, 0.5)), url('../img/Jord-AR5905.png');
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                width: 260px;
+                height: 325px;
+
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+
+            .watch-back:hover{
+                filter:brightness(80%);
+                //filter: blur(1px);
+                transform: none;
+            }
+
+            button{
+                font-family: 'Playfair Display';
+                font-size: 18px;
+                line-height: 24px;
+                text-align: center;
+                color: #FFFFFF;
+
+                padding: 12px 28px;
+                border: 1px solid #FFFFFF;
+
+                background-color: rgba($color: #000000, $alpha: 0);
+                transition: 0.2s;
+
+                -webkit-touch-callout: none; /* iOS Safari */
+                -webkit-user-select: none;   /* Chrome/Safari/Opera */
+                -khtml-user-select: none;    /* Konqueror */
+                -moz-user-select: none;      /* Firefox */
+                -ms-user-select: none;       /* Internet Explorer/Edge */
+                user-select: none;
+            }
+
+            button:hover{
+                transition: 0.2s;
+                background-color: rgba($color: #000000, $alpha: 0.5);
+                transform: scale(1.05);
+            }
+
+            button:active{
+                transition: 0.2s;
+                background-color: rgba($color: #000000, $alpha: 0.9);
+                transform: scale(0.97);
+            }
+        }
+
+        .watch-card{
+            .watch-back{
+                background: #191B1C;
+    
+                padding-top: 27px;
+                padding-bottom: 34px;
+                text-align: center;
+    
+                transition: 0.5s;
+
+                img{
+                    max-width: 215px;
+                }
+            }
+    
+            .watch-back:hover{
+                transition: 0.5s;
+                transform: scale(1.1);
+            }
+    
+            .watch-back:active{
+                transition: 0.2s;
+                transform: scale(1.0);
+            }
+
+            h3{
+                font-family: 'Playfair Display';
+                font-size: 18px;
+                line-height: 24px;
+
+                margin-top: 25px;
+                margin-bottom: 10px;
+            }
+
+            span{
+                font-family: 'Playfair Display';
+                font-weight: 700;
+                line-height: 21px;
+                color: #D0D0D0;
             }
         }
     }
