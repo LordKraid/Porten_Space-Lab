@@ -652,6 +652,132 @@ header{
     }
 }
 
+.information{
+    text-align: center;
+    background-color: #0F0F0F;
+
+    h1{
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-transform: uppercase;
+
+        padding-top: 63px;
+    }
+
+    .line{
+        border-bottom: 1px solid #FFFFFF;
+        width: 120px;
+        display: inline-block;
+
+        margin-top: 36px;
+        margin-bottom: 57px;
+    }
+
+    .information-flex-column{
+        display: flex;
+        flex-direction: column;
+
+        .information-flex-row{
+            display: flex;
+
+            margin-bottom: 30px;
+
+            .information-img{
+                flex-basis: 52%;
+                transition: 0.5s;
+
+                img{width: 100%;}
+            }
+
+            .information-img:hover{
+                transition: 0.5s;
+                filter: blur(2px);
+                filter: brightness(75%)
+            }
+
+            .information-content{
+                flex-basis: 48%;
+                text-align: left;
+
+                display: flex;
+                justify-content: center;              
+
+                .information-content-flex{
+                    flex-basis: 69%;
+
+                    h2{
+                        font-size: 18px;
+                        line-height: 23px;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+
+                        margin-top: 53px;
+                    }
+    
+                    p{
+                        line-height: 150%;
+                        margin-top: 14px;
+                        margin-bottom: 39px;
+                    }
+    
+                    .content-bottom{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+    
+                        button{
+                            font-size: 18px;
+                            line-height: 23px;
+                            text-align: center;
+                            letter-spacing: 0.1em;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+    
+                            padding: 12px 28px;
+                            border: 1px solid #FFFFFF;
+    
+                            background-color: rgba($color: #000000, $alpha: 0);
+                            transition: 0.2s;
+
+                            -webkit-touch-callout: none; /* iOS Safari */
+                            -webkit-user-select: none;   /* Chrome/Safari/Opera */
+                            -khtml-user-select: none;    /* Konqueror */
+                            -moz-user-select: none;      /* Firefox */
+                            -ms-user-select: none;       /* Internet Explorer/Edge */
+                            user-select: none;
+                        }
+            
+                        button:hover{
+                            transition: 0.2s;
+                            background-color: rgba($color: #3d3d3d, $alpha: 0.5);
+                            transform: scale(1.05);
+                        }
+            
+                        button:active{
+                            transition: 0.2s;
+                            background-color: rgba($color: #3d3d3d, $alpha: 0.9);
+                            transform: scale(0.97);
+                        }
+        
+                        span{
+                            font-size: 18px;
+                            line-height: 23px;
+                            letter-spacing: 0.1em;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+
+        .row3{
+            margin-bottom: 0;
+        }
+    }
+}
+
 .partners{
     background: #0F0F0F;
     text-align: center;

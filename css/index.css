@@ -521,6 +521,108 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   color: #D0D0D0;
 }
 
+.information {
+  text-align: center;
+  background-color: #0F0F0F;
+}
+.information h1 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  padding-top: 63px;
+}
+.information .line {
+  border-bottom: 1px solid #FFFFFF;
+  width: 120px;
+  display: inline-block;
+  margin-top: 36px;
+  margin-bottom: 57px;
+}
+.information .information-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.information .information-flex-column .information-flex-row {
+  display: flex;
+  margin-bottom: 30px;
+}
+.information .information-flex-column .information-flex-row .information-img {
+  flex-basis: 52%;
+  transition: 0.5s;
+}
+.information .information-flex-column .information-flex-row .information-img img {
+  width: 100%;
+}
+.information .information-flex-column .information-flex-row .information-img:hover {
+  transition: 0.5s;
+  filter: blur(2px);
+  filter: brightness(75%);
+}
+.information .information-flex-column .information-flex-row .information-content {
+  flex-basis: 48%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+.information .information-flex-column .information-flex-row .information-content .information-content-flex {
+  flex-basis: 69%;
+}
+.information .information-flex-column .information-flex-row .information-content .information-content-flex h2 {
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 53px;
+}
+.information .information-flex-column .information-flex-row .information-content .information-content-flex p {
+  line-height: 150%;
+  margin-top: 14px;
+  margin-bottom: 39px;
+}
+.information .information-flex-column .information-flex-row .information-content .information-content-flex .content-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.information .information-flex-column .information-flex-row .information-content .information-content-flex .content-bottom button {
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 12px 28px;
+  border: 1px solid #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.2s;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */ /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+.information .information-flex-column .information-flex-row .information-content .information-content-flex .content-bottom button:hover {
+  transition: 0.2s;
+  background-color: rgba(61, 61, 61, 0.5);
+  transform: scale(1.05);
+}
+.information .information-flex-column .information-flex-row .information-content .information-content-flex .content-bottom button:active {
+  transition: 0.2s;
+  background-color: rgba(61, 61, 61, 0.9);
+  transform: scale(0.97);
+}
+.information .information-flex-column .information-flex-row .information-content .information-content-flex .content-bottom span {
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.information .information-flex-column .row3 {
+  margin-bottom: 0;
+}
+
 .partners {
   background: #0F0F0F;
   text-align: center;
