@@ -987,10 +987,22 @@ footer{
 
 
 
-
+@media (max-width: 1650px){
+    .information{
+        span{
+            display: none;
+        }
+    }
+}
 
 @media (max-width: 1200px){
-    
+    .information{
+        .information-content{
+            .content-bottom{
+                span{display: none;}
+            }
+        }
+    }
 }
 
 @media (max-width: 992px){
@@ -1010,7 +1022,13 @@ footer{
     }
 
     .main{
+        .main-logo{
+            h1{font-size: 54px;}
+    
+            h2{font-size: 18px;}
+        }
 
+        .main-text{font-size: 14px;}
     }
 
     .new-collection{
@@ -1046,6 +1064,8 @@ footer{
     }
 
     .information{
+        h1{font-size: 28px;}
+
         .information-flex-row{
             flex-direction: column;
 
@@ -1055,14 +1075,12 @@ footer{
             }
 
             .information-img{order: 2;}
-
-            span{
-                display: none;
-            }
         }
     }
 
     .partners{
+        h1{font-size: 28px;}
+
         .partners-icons-flex{
             margin: 0 3%;
         }
@@ -1076,7 +1094,11 @@ footer{
                 h2{
                     text-align: center;
                     padding-bottom: 5%;
+
+                    font-size: 20px;
                 }
+
+                p{font-size: 12px;}
 
                 .column-categories{
                     margin-top: 5%;
@@ -1090,14 +1112,46 @@ footer{
                             width: 50%;
                         }
                     }
+
+                    .mailing-subscribe{
+                        display: flex;
+                        width: 100%;
+    
+                        margin-top: 7%;
+    
+                        .text-area{
+                            flex-basis: 60%;
+                        }
+                        
+                        input{font-size: 14px;}
+    
+                        input::placeholder{font-size: 12px;}
+                    }
                 }
             }
         }
+
+        .footer-bottom{padding: 2% 0;}
     }
 }
 
 @media (max-width: 768px){
+    .new-collection{
+        .season-2021, .catalog .catalog-flex{
+            h1{font-size: 28px;}
+        }
+    }
+
+    .collection-2018{
+        .collection-2018-content .collection-2018-content-flex{
+            h1{font-size: 28px;}
+            p{font-size: 12px;}
+        }
+    }
+
     .new-watchs{
+        h1{font-size: 24px;}
+
         .new-watchs-grid{
             grid-template-columns: 55% 45%;
             grid-template-rows: 22.5% 22.5% 22.5% 22.5%;
@@ -1118,6 +1172,49 @@ footer{
     
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 560px){
+    .main{
+        .main-text{
+            font-size: 12px;
+            width: 90%;
+            margin-top: 25%;
+        }
+    }
+
+    .information{
+        h1{font-size: 20px;}
+
+        .information-flex-column .information-flex-row .information-content{
+            .information-content-flex{
+                flex-basis: 90%;
+                h2{font-size: 16px;}
+                p{font-size: 14px;}
+    
+                .content-bottom a{
+                        button{font-size: 14px;}
+                }
+                
+            }
+        }        
+    }
+
+    .partners{
+        .partners-icons-flex{
+            flex-wrap: wrap;
+
+            .partners-icons{
+                flex-basis: 45%;
+            }
+        }
+    }
+
+    footer{
+        .footer-bottom{
+            div{font-size: 10px;}
         }
     }
 }
