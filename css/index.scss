@@ -1022,13 +1022,18 @@ footer{
     }
 
     .main{
+
         .main-logo{
             h1{font-size: 54px;}
-    
             h2{font-size: 18px;}
+            margin-top: 5%;
         }
 
-        .main-text{font-size: 14px;}
+        .main-text{
+            font-size: 14px;
+            width: 80%;
+            margin-top: 10%;
+        }
     }
 
     .new-collection{
@@ -1140,12 +1145,19 @@ footer{
         .season-2021, .catalog .catalog-flex{
             h1{font-size: 28px;}
         }
+
+        .season-2021 .new-collection-row .watch-card{
+            h3{font-size: 16px;}
+            span{font-size: 14px;}
+        }
     }
 
     .collection-2018{
         .collection-2018-content .collection-2018-content-flex{
             h1{font-size: 28px;}
             p{font-size: 12px;}
+
+            a button{font-size: 14px;}
         }
     }
 
@@ -1162,6 +1174,9 @@ footer{
                     width: 90%;
                     height: 70%;
                 }
+
+                h3{font-size: 16px;}
+                span{font-size: 14px;}
             }
 
             #watch-card8{
@@ -1183,6 +1198,30 @@ footer{
             width: 90%;
             margin-top: 25%;
         }
+    }
+
+    .new-collection{
+        .season-2021 .new-collection-row .watch-card{
+            h3{font-size: 14px;}
+            span{font-size: 12px;}
+        }
+    }
+
+    .new-watchs{
+        .new-watchs-grid{
+            .watch-card{
+                h3{font-size: 14px;}
+                span{font-size: 12px;}
+            }
+
+            #watch-card8 .watch-back a{
+                button{
+                    padding: 5% 14px;
+                    font-size: 14px;
+                }
+            }
+        }
+        
     }
 
     .information{
