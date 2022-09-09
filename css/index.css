@@ -87,7 +87,7 @@ header .header-top .header-top-flex .header-cab span:active {
   text-decoration: underline;
 }
 header .header-bottom {
-  background: #0F0F0F;
+  background-color: #0F0F0F;
 }
 header .header-bottom .header-bottom-flex {
   display: flex;
@@ -99,6 +99,7 @@ header .header-bottom .header-bottom-flex .header-logo {
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
+  padding: 15px 0;
   transition: 0.5s;
 }
 header .header-bottom .header-bottom-flex .header-logo:hover {
@@ -287,7 +288,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
 }
 .new-collection .catalog {
   background-image: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../img/catalog-back.png");
-  background-position: 50% 100%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
@@ -298,6 +299,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
 .new-collection .catalog .catalog-flex {
   justify-content: center;
   flex-grow: 1;
+  padding-top: 11%;
   margin-bottom: 11.5%;
   text-align: center;
 }
@@ -504,6 +506,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
 }
 .new-watchs .new-watchs-grid .watch-card .watch-back img {
   max-width: 100%;
+  max-height: 100%;
 }
 .new-watchs .new-watchs-grid .watch-card .watch-back:hover {
   transition: 0.5s;
@@ -717,11 +720,14 @@ footer .footer-top .footer-top-flex .column-categories button:active {
 }
 footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe {
   display: flex;
+  width: 100%;
   margin-top: 7%;
 }
+footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe .text-area {
+  flex-basis: 60%;
+}
 footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe input {
-  width: 210px;
-  height: 42px;
+  width: 100%;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
@@ -781,4 +787,86 @@ footer .footer-bottom .footer-bottom-flex a:hover {
 footer .footer-bottom .footer-bottom-flex a:active {
   transition: 0.1s;
   color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  header menu {
+    display: none;
+  }
+  header menu nav {
+    display: none;
+  }
+  header menu div {
+    display: none;
+  }
+  .new-collection {
+    flex-direction: column;
+  }
+  .collection-2018 {
+    flex-direction: column;
+  }
+  .new-watchs .new-watchs-grid {
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 22.5% 22.5% 22.5% 22.5%;
+  }
+  .new-watchs .new-watchs-grid .watch-card {
+    margin-right: 2%;
+  }
+  .new-watchs .new-watchs-grid .watch-card .watch-back {
+    width: 90%;
+    height: 85%;
+  }
+  .new-watchs .new-watchs-grid #watch-card8 .watch-back {
+    width: 100%;
+    height: 85%;
+  }
+  .information .information-flex-row {
+    flex-direction: column;
+  }
+  .information .information-flex-row .information-content {
+    order: 1;
+    margin-bottom: 3%;
+  }
+  .information .information-flex-row .information-img {
+    order: 2;
+  }
+  .information .information-flex-row span {
+    display: none;
+  }
+  .partners .partners-icons-flex {
+    margin: 0 3%;
+  }
+  footer .footer-top .footer-top-flex {
+    flex-direction: column;
+  }
+  footer .footer-top .footer-top-flex h2 {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  footer .footer-top .footer-top-flex .column-categories {
+    margin-top: 5%;
+  }
+  footer .footer-top .footer-top-flex .mailing-subscribe .text-area {
+    text-align: right;
+  }
+  footer .footer-top .footer-top-flex .mailing-subscribe .text-area input {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .new-watchs .new-watchs-grid {
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 22.5% 22.5% 22.5% 22.5%;
+  }
+  .new-watchs .new-watchs-grid .watch-card {
+    margin-right: 2%;
+  }
+  .new-watchs .new-watchs-grid .watch-card .watch-back {
+    width: 90%;
+    height: 70%;
+  }
+  .new-watchs .new-watchs-grid #watch-card8 .watch-back {
+    width: 100%;
+    height: 70%;
+  }
 }/*# sourceMappingURL=index.css.map */
