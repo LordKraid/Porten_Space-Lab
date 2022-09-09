@@ -800,8 +800,17 @@ footer .footer-bottom .footer-bottom-flex a:active {
   }
 }
 @media (max-width: 992px) {
+  header .header-top {
+    display: none;
+  }
   header ._content .header-top-flex .header-cab div {
     display: none;
+  }
+  header .header-bottom {
+    height: 100%;
+  }
+  header .header-bottom .header-logo {
+    margin-left: 5%;
   }
   header menu {
     display: none;
@@ -811,6 +820,9 @@ footer .footer-bottom .footer-bottom-flex a:active {
   }
   header menu div {
     display: none;
+  }
+  .main {
+    top: 85px;
   }
   .main .main-logo {
     margin-top: 5%;
@@ -1009,6 +1021,9 @@ footer .footer-bottom .footer-bottom-flex a:active {
   }
   .partners .partners-icons-flex .partners-icons {
     flex-basis: 45%;
+  }
+  footer .footer-top ._content .footer-top-flex .column-mailing .mailing-subscribe .text-area input {
+    width: 100%;
   }
   footer .footer-bottom div {
     font-size: 10px;

@@ -1007,10 +1007,20 @@ footer{
 
 @media (max-width: 992px){
     header{
+        .header-top{display: none;}
+
         ._content .header-top-flex{
 
             .header-cab{
                 div{display: none;}
+            }
+        }
+
+        .header-bottom{
+            height: 100%;
+
+            .header-logo{
+                margin-left: 5%;
             }
         }
 
@@ -1030,6 +1040,7 @@ footer{
     }
 
     .main{
+        top: 85px;
 
         .main-logo{
             h1{font-size: 54px;}
@@ -1277,6 +1288,12 @@ footer{
     }
 
     footer{
+        .footer-top ._content .footer-top-flex .column-mailing .mailing-subscribe{
+            .text-area{
+                input{width: 100%;}
+            }
+        }
+
         .footer-bottom{
             div{font-size: 10px;}
         }
