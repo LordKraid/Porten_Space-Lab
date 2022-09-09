@@ -1155,7 +1155,10 @@ footer{
     .collection-2018{
         .collection-2018-content .collection-2018-content-flex{
             h1{font-size: 28px;}
-            p{font-size: 12px;}
+            p{
+                width: 90%;
+                font-size: 12px;
+            }
 
             a button{font-size: 14px;}
         }
