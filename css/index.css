@@ -16,8 +16,6 @@ body {
   font-family: "PT Sans", sans-serif;
   line-height: 21px;
   color: #FFFFFF;
-  max-width: 100vw;
-  min-width: 1080px;
   overflow-x: hidden;
 }
 
@@ -147,7 +145,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons div {
   align-self: center;
 }
 header .header-bottom .header-bottom-flex menu .menu-icons div img {
-  width: 22px;
+  width: 100%;
 }
 header .header-bottom .header-bottom-flex menu .menu-icons img {
   transition: 0.2s;
@@ -161,8 +159,8 @@ header .header-bottom .header-bottom-flex menu .menu-icons img:active {
   transition: 0.1s;
 }
 header .header-bottom .header-bottom-flex menu .menu-icons .cart {
-  padding-right: 45px;
-  padding-left: 15px;
+  margin-right: 40%;
+  margin-left: 10%;
 }
 
 .main {
@@ -183,7 +181,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
 .main .main-back {
   width: 100%;
   height: 100%;
-  padding-top: 160px;
+  padding-top: 8.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,7 +191,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   background-size: cover;
 }
 .main .main-logo {
-  padding: 94px 61px;
+  padding: 5% 3.3%;
   border: 4px solid #FFFFFF;
   display: inline-block;
 }
@@ -206,14 +204,14 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   display: inline-block;
 }
 .main .main-logo h2 {
-  padding-top: 7px;
+  padding-top: 4%;
   font-size: 22px;
   line-height: 28px;
 }
 .main .main-text {
-  margin-top: 80px;
+  margin-top: 4.3%;
   display: inline-block;
-  width: 750px;
+  width: 40%;
   font-size: 16px;
   line-height: 150%;
 }
@@ -234,26 +232,33 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   font-size: 36px;
   line-height: 48px;
   text-transform: uppercase;
-  padding-top: 93px;
+  padding-top: 9%;
 }
 .new-collection .season-2021 .line {
-  margin: 50px 0;
+  margin: 4.9% 0;
 }
 .new-collection .season-2021 .new-collection-row {
   text-align: left;
   display: flex;
   justify-content: space-between;
-  padding: 0 80px;
+  padding: 0 7.8%;
 }
 .new-collection .season-2021 .new-collection-row .watch-card {
   flex-basis: 30%;
 }
 .new-collection .season-2021 .new-collection-row .watch-card .watch-back {
   background: #191B1C;
-  padding-top: 27px;
-  padding-bottom: 34px;
+  padding-top: 10%;
+  padding-bottom: 15.5%;
   text-align: center;
   transition: 0.5s;
+}
+.new-collection .season-2021 .new-collection-row .watch-card .watch-back .watch-img {
+  width: 80%;
+  margin: 0 auto;
+}
+.new-collection .season-2021 .new-collection-row .watch-card .watch-back .watch-img img {
+  width: 100%;
 }
 .new-collection .season-2021 .new-collection-row .watch-card .watch-back:hover {
   transition: 0.5s;
@@ -268,8 +273,8 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 10%;
+  margin-bottom: 4%;
 }
 .new-collection .season-2021 .new-collection-row .watch-card span {
   font-family: "Playfair Display";
@@ -278,7 +283,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   line-height: 21px;
   color: #D0D0D0;
   display: inline-block;
-  padding-bottom: 93px;
+  padding-bottom: 37%;
 }
 .new-collection .catalog {
   background-image: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../img/catalog-back.png");
@@ -293,7 +298,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
 .new-collection .catalog .catalog-flex {
   justify-content: center;
   flex-grow: 1;
-  margin-bottom: 100px;
+  margin-bottom: 11.5%;
   text-align: center;
 }
 .new-collection .catalog .catalog-flex h1 {
@@ -304,7 +309,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   text-transform: uppercase;
 }
 .new-collection .catalog .catalog-flex .line {
-  margin: 30px 0;
+  margin: 3.7% 0;
 }
 .new-collection .catalog .catalog-flex button {
   font-size: 18px;
@@ -314,7 +319,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   text-transform: uppercase;
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
-  padding: 12px 28px;
+  padding: 1.3% 3%;
   background-color: rgba(0, 0, 0, 0);
   transition: 0.2s;
   -webkit-touch-callout: none; /* iOS Safari */
@@ -364,7 +369,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   flex-basis: 54%;
   display: flex;
   justify-content: center;
-  padding: 100px 0;
+  padding: 5% 0;
 }
 .collection-2018 .collection-2018-content .collection-2018-content-flex {
   text-align: center;
@@ -379,14 +384,15 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
 .collection-2018 .collection-2018-content .collection-2018-content-flex .line {
   display: inline-block;
   border-bottom: 1px solid #FFFFFF;
-  margin: 40px 0;
+  margin: 3% 0;
   width: 120px;
 }
 .collection-2018 .collection-2018-content .collection-2018-content-flex p {
+  margin: 0 auto;
   font-size: 14px;
   line-height: 150%;
-  margin-bottom: 64px;
-  width: 630px;
+  margin-bottom: 6%;
+  width: 61%;
 }
 .collection-2018 .collection-2018-content .collection-2018-content-flex button {
   font-size: 18px;
@@ -394,7 +400,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding: 12px 28px;
+  padding: 1% 2.8%;
   border: 1px solid #FFFFFF;
   background-color: rgba(61, 61, 61, 0);
   transition: 0.2s;
@@ -425,8 +431,8 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   font-size: 36px;
   line-height: 48px;
   text-transform: uppercase;
-  padding-top: 120px;
-  margin-bottom: 40px;
+  padding-top: 6.3%;
+  margin-bottom: 2.1%;
 }
 .new-watchs .line {
   width: 120px;
@@ -440,8 +446,8 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   justify-content: space-between;
   align-content: space-between;
   max-width: 1180px;
-  margin: 80px auto 0;
-  padding-bottom: 150px;
+  margin: 4.2% auto 0;
+  padding: 0 15px 7.5%;
   text-align: left;
 }
 .new-watchs .new-watchs-grid #watch-card7 .watch-back {
@@ -453,8 +459,8 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 260px;
-  height: 325px;
+  width: 100%;
+  height: 89%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -469,7 +475,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
-  padding: 12px 28px;
+  padding: 7% 28px;
   border: 1px solid #FFFFFF;
   background-color: rgba(0, 0, 0, 0);
   transition: 0.2s;
@@ -491,13 +497,13 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
 }
 .new-watchs .new-watchs-grid .watch-card .watch-back {
   background: #191B1C;
-  padding-top: 27px;
-  padding-bottom: 34px;
+  padding-top: 10%;
+  padding-bottom: 13%;
   text-align: center;
   transition: 0.5s;
 }
 .new-watchs .new-watchs-grid .watch-card .watch-back img {
-  max-width: 215px;
+  max-width: 100%;
 }
 .new-watchs .new-watchs-grid .watch-card .watch-back:hover {
   transition: 0.5s;
@@ -511,8 +517,8 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   font-family: "Playfair Display";
   font-size: 18px;
   line-height: 24px;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 10%;
+  margin-bottom: 4%;
 }
 .new-watchs .new-watchs-grid .watch-card span {
   font-family: "Playfair Display";
@@ -531,14 +537,14 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   font-size: 36px;
   line-height: 48px;
   text-transform: uppercase;
-  padding-top: 63px;
+  padding-top: 3.3%;
 }
 .information .line {
   border-bottom: 1px solid #FFFFFF;
   width: 120px;
   display: inline-block;
-  margin-top: 36px;
-  margin-bottom: 57px;
+  margin-top: 2%;
+  margin-bottom: 3%;
 }
 .information .information-flex-column {
   display: flex;
@@ -546,7 +552,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
 }
 .information .information-flex-column .information-flex-row {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 1.6%;
 }
 .information .information-flex-column .information-flex-row .information-img {
   flex-basis: 52%;
@@ -574,12 +580,12 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   line-height: 23px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-top: 53px;
+  margin-top: 8.5%;
 }
 .information .information-flex-column .information-flex-row .information-content .information-content-flex p {
   line-height: 150%;
-  margin-top: 14px;
-  margin-bottom: 39px;
+  margin-top: 2.3%;
+  margin-bottom: 6%;
 }
 .information .information-flex-column .information-flex-row .information-content .information-content-flex .content-bottom {
   display: flex;
@@ -593,7 +599,7 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding: 12px 28px;
+  padding: 10% 35%;
   border: 1px solid #FFFFFF;
   background-color: rgba(0, 0, 0, 0);
   transition: 0.2s;
@@ -635,22 +641,28 @@ header .header-bottom .header-bottom-flex menu .menu-icons .cart {
   line-height: 48px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 90px;
+  padding-top: 4.6%;
 }
 .partners .line {
   width: 120px;
   height: 1px;
   border-top: 1px solid #FFFFFF;
   display: inline-block;
-  margin-top: 45px;
+  margin-top: 2.4%;
 }
 .partners .partners-icons-flex {
-  padding: 0 267px;
+  margin: 0 14%;
   display: flex;
   justify-content: space-between;
-  padding-top: 66px;
-  padding-bottom: 106px;
+  padding-top: 3.5%;
+  padding-bottom: 6%;
   align-items: center;
+}
+.partners .partners-icons-flex .partners-icons img {
+  width: 100%;
+}
+.partners .partners-icons-flex .partners-icons:not(:last-child) {
+  margin-right: 1%;
 }
 
 footer .footer-top {
@@ -662,8 +674,8 @@ footer .footer-top {
 footer .footer-top .footer-top-flex {
   display: flex;
   justify-content: space-between;
-  padding-top: 80px;
-  padding-bottom: 67px;
+  padding-top: 7.6%;
+  padding-bottom: 6.5%;
 }
 footer .footer-top .footer-top-flex div {
   flex-basis: 33.333%;
@@ -675,13 +687,13 @@ footer .footer-top .footer-top-flex h2 {
   font-size: 24px;
   line-height: 32px;
   text-transform: uppercase;
-  padding-bottom: 40px;
+  padding-bottom: 13%;
 }
 footer .footer-top .footer-top-flex p {
   line-height: 150%;
 }
 footer .footer-top .footer-top-flex .column-categories {
-  padding-left: 20px;
+  padding-left: 2%;
 }
 footer .footer-top .footer-top-flex .column-categories button {
   transition: 0.1s;
@@ -689,9 +701,9 @@ footer .footer-top .footer-top-flex .column-categories button {
   line-height: 150%;
   color: #D0D0D0;
   background-color: #0F0F0F;
-  padding: 10px 20px;
-  margin-right: 6px;
-  margin-bottom: 20px;
+  padding: 3% 6%;
+  margin-right: 2.5%;
+  margin-bottom: 6%;
 }
 footer .footer-top .footer-top-flex .column-categories button:hover {
   transition: 0.1s;
@@ -705,7 +717,7 @@ footer .footer-top .footer-top-flex .column-categories button:active {
 }
 footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe {
   display: flex;
-  margin-top: 26px;
+  margin-top: 7%;
 }
 footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe input {
   width: 210px;
@@ -750,7 +762,7 @@ footer .footer-top .footer-top-flex .column-mailing .mailing-subscribe button:ac
 }
 footer .footer-bottom {
   background: #0F0F0F;
-  padding: 17px 0;
+  padding: 0.8% 0;
 }
 footer .footer-bottom .footer-bottom-flex {
   display: flex;

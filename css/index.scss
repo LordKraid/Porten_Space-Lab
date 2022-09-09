@@ -21,8 +21,8 @@ body{
     font-family: 'PT Sans', sans-serif;
     line-height: 21px;
     color: #FFFFFF;
-    max-width: 100vw;
-    min-width: 1080px;
+    //max-width: 100vw;
+    //min-width: 1080px;
     overflow-x: hidden;
 }
 
@@ -163,7 +163,7 @@ header{
                     div{
                         align-self: center;
 
-                        img{width: 22px;}
+                        img{width: 100%;} 
                     }
 
                     img{transition: 0.2s;}
@@ -179,8 +179,8 @@ header{
                     }
 
                     .cart{
-                        padding-right: 45px;
-                        padding-left: 15px;
+                        margin-right: 40%;
+                        margin-left: 10%;
                     }
                 }
 
@@ -211,7 +211,7 @@ header{
     .main-back{
         width: 100%;
         height: 100%;
-        padding-top: 160px;
+        padding-top: 8.5%;
 
         display: flex;
         flex-direction: column;
@@ -231,7 +231,7 @@ header{
     }*/
 
     .main-logo{
-        padding: 94px 61px;
+        padding: 5% 3.3%;
         border: 4px solid #FFFFFF;
         display: inline-block;
 
@@ -246,16 +246,16 @@ header{
         }
 
         h2{
-            padding-top: 7px;
+            padding-top: 4%;
             font-size: 22px;
             line-height: 28px;
         }
     }
 
     .main-text{
-        margin-top: 80px;
+        margin-top: 4.3%;
         display: inline-block;
-        width: 750px;
+        width: 40%;
 
         font-size: 16px;
         line-height: 150%;
@@ -280,10 +280,10 @@ header{
             line-height: 48px;
             text-transform: uppercase;
 
-            padding-top: 93px;
+            padding-top: 9%;
         }
 
-        .line{margin: 50px 0;}
+        .line{margin: 4.9% 0;}
 
         .new-collection-row{
             text-align: left;
@@ -291,7 +291,7 @@ header{
             display: flex;
             justify-content: space-between;
 
-            padding: 0 80px;
+            padding: 0 7.8%;
 
             .watch-card{
                 flex-basis: 30%;
@@ -299,11 +299,20 @@ header{
                 .watch-back{
                     background: #191B1C;
 
-                    padding-top: 27px;
-                    padding-bottom: 34px;
+                    padding-top: 10%;
+                    padding-bottom: 15.5%;
                     text-align: center;
 
                     transition: 0.5s;
+
+                    .watch-img{
+                        width: 80%;
+                        margin: 0 auto;
+
+                        img{
+                            width: 100%;
+                        }
+                    }
                 }
 
                 .watch-back:hover{
@@ -322,8 +331,8 @@ header{
                     font-size: 18px;
                     line-height: 24px;
 
-                    margin-top: 25px;
-                    margin-bottom: 10px;
+                    margin-top: 10%;
+                    margin-bottom: 4%;
                 }
 
                 span{
@@ -334,7 +343,7 @@ header{
                     color: #D0D0D0;
 
                     display: inline-block;
-                    padding-bottom: 93px;
+                    padding-bottom: 37%;
                 }
             }
         }
@@ -357,7 +366,7 @@ header{
             justify-content: center;
             flex-grow: 1;
 
-            margin-bottom: 100px;
+            margin-bottom: 11.5%;
 
             text-align: center;
 
@@ -369,7 +378,7 @@ header{
                 text-transform: uppercase;
             }
     
-            .line{margin: 30px 0;}
+            .line{margin: 3.7% 0;}
     
             button{
                 font-size: 18px;
@@ -380,7 +389,7 @@ header{
                 color: #FFFFFF;
     
                 border: 1px solid #FFFFFF;
-                padding: 12px 28px;
+                padding: 1.3% 3%;
                 
                 background-color: rgba($color: #000000, $alpha: 0);
 
@@ -447,7 +456,7 @@ header{
 
         display: flex;
         justify-content: center;
-        padding: 100px 0;
+        padding: 5% 0;
 
         .collection-2018-content-flex{
             text-align: center;
@@ -463,15 +472,17 @@ header{
             .line{
                 display: inline-block;
                 border-bottom: 1px solid #FFFFFF;
-                margin: 40px 0;
+                margin: 3% 0;
                 width: 120px;
             }
 
             p{
+                margin: 0 auto;
+
                 font-size: 14px;
                 line-height: 150%;
-                margin-bottom: 64px;
-                width: 630px;
+                margin-bottom: 6%;
+                width: 61%;
             }
 
             button{
@@ -481,7 +492,7 @@ header{
                 text-transform: uppercase;
                 color: #FFFFFF;
 
-                padding: 12px 28px;
+                padding: 1% 2.8%;   //!!!!!!!!!!!
                 border: 1px solid #FFFFFF;
 
                 background-color: rgba($color: #3d3d3d, $alpha: 0);
@@ -522,8 +533,8 @@ header{
         line-height: 48px;
         text-transform: uppercase;
 
-        padding-top: 120px;
-        margin-bottom: 40px;
+        padding-top: 6.3%;
+        margin-bottom: 2.1%;
     }
 
     .line{
@@ -540,8 +551,8 @@ header{
         align-content: space-between;
         
         max-width: 1180px;
-        margin: 80px auto 0;
-        padding-bottom: 150px;
+        margin: 4.2% auto 0;
+        padding: 0 15px 7.5%;
 
         text-align: left;
 
@@ -560,8 +571,8 @@ header{
                 background-repeat: no-repeat;
                 background-size: cover;
 
-                width: 260px;
-                height: 325px;
+                width: 100%;
+                height: 89%; //!!!!!!!
 
                 display: flex;
                 justify-content: center;
@@ -581,7 +592,7 @@ header{
                 text-align: center;
                 color: #FFFFFF;
 
-                padding: 12px 28px;
+                padding: 7% 28px; //!!!!!!!
                 border: 1px solid #FFFFFF;
 
                 background-color: rgba($color: #000000, $alpha: 0);
@@ -612,14 +623,14 @@ header{
             .watch-back{
                 background: #191B1C;
     
-                padding-top: 27px;
-                padding-bottom: 34px;
+                padding-top: 10%;
+                padding-bottom: 13%;
                 text-align: center;
     
                 transition: 0.5s;
 
                 img{
-                    max-width: 215px;
+                    max-width: 100%;
                 }
             }
     
@@ -638,8 +649,8 @@ header{
                 font-size: 18px;
                 line-height: 24px;
 
-                margin-top: 25px;
-                margin-bottom: 10px;
+                margin-top: 10%;
+                margin-bottom: 4%;
             }
 
             span{
@@ -663,7 +674,7 @@ header{
         line-height: 48px;
         text-transform: uppercase;
 
-        padding-top: 63px;
+        padding-top: 3.3%;
     }
 
     .line{
@@ -671,8 +682,8 @@ header{
         width: 120px;
         display: inline-block;
 
-        margin-top: 36px;
-        margin-bottom: 57px;
+        margin-top: 2%;
+        margin-bottom: 3%;
     }
 
     .information-flex-column{
@@ -682,7 +693,7 @@ header{
         .information-flex-row{
             display: flex;
 
-            margin-bottom: 30px;
+            margin-bottom: 1.6%;
 
             .information-img{
                 flex-basis: 52%;
@@ -713,13 +724,13 @@ header{
                         letter-spacing: 0.1em;
                         text-transform: uppercase;
 
-                        margin-top: 53px;
+                        margin-top: 8.5%;
                     }
     
                     p{
                         line-height: 150%;
-                        margin-top: 14px;
-                        margin-bottom: 39px;
+                        margin-top: 2.3%;
+                        margin-bottom: 6%;
                     }
     
                     .content-bottom{
@@ -735,7 +746,7 @@ header{
                             text-transform: uppercase;
                             color: #FFFFFF;
     
-                            padding: 12px 28px;
+                            padding: 10% 35%;
                             border: 1px solid #FFFFFF;
     
                             background-color: rgba($color: #000000, $alpha: 0);
@@ -791,7 +802,7 @@ header{
         text-align: center;
         text-transform: uppercase;
 
-        padding-top: 90px;
+        padding-top: 4.6%;
     }
 
     .line{
@@ -801,19 +812,29 @@ header{
 
         display: inline-block;
 
-        margin-top: 45px;
+        margin-top: 2.4%;
     }
 
     .partners-icons-flex{
-        padding: 0 267px;
+        margin: 0 14%;
 
         display: flex;
         justify-content: space-between;
 
-        padding-top: 66px;
-        padding-bottom: 106px;
+        padding-top: 3.5%;
+        padding-bottom: 6%;
 
         align-items: center;
+
+        .partners-icons{
+            img{
+                width: 100%;
+            }
+        }
+
+        .partners-icons:not(:last-child){
+            margin-right: 1%;
+        }
     }
 }
 
@@ -828,8 +849,8 @@ footer{
             display: flex;
             justify-content: space-between;
 
-            padding-top: 80px;
-            padding-bottom: 67px;
+            padding-top: 7.6%;
+            padding-bottom: 6.5%;
 
             div{
                 flex-basis: 33.333%;
@@ -843,7 +864,7 @@ footer{
                 line-height: 32px;
                 text-transform: uppercase;
 
-                padding-bottom: 40px;
+                padding-bottom: 13%;
             }
 
             p{
@@ -851,7 +872,7 @@ footer{
             }
 
             .column-categories{
-                padding-left: 20px;
+                padding-left: 2%;
 
                 button{
                     transition: 0.1s;
@@ -861,9 +882,9 @@ footer{
                     color: #D0D0D0;
 
                     background-color: #0F0F0F;
-                    padding: 10px 20px;
-                    margin-right: 6px;
-                    margin-bottom: 20px;
+                    padding: 3% 6%;
+                    margin-right: 2.5%;
+                    margin-bottom: 6%;
                 }
 
                 button:hover{
@@ -883,7 +904,7 @@ footer{
                 .mailing-subscribe{
                     display: flex;
 
-                    margin-top: 26px;
+                    margin-top: 7%;
                     
                     input{
                         width: 210px;
@@ -930,7 +951,7 @@ footer{
 
     .footer-bottom{
         background: #0F0F0F;
-        padding: 17px 0;
+        padding: 0.8% 0;
 
         .footer-bottom-flex{
             display: flex;
