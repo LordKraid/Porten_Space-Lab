@@ -800,6 +800,9 @@ footer .footer-bottom .footer-bottom-flex a:active {
   }
 }
 @media (max-width: 992px) {
+  header ._content .header-top-flex .header-cab div {
+    display: none;
+  }
   header menu {
     display: none;
   }
@@ -953,6 +956,18 @@ footer .footer-bottom .footer-bottom-flex a:active {
   }
 }
 @media (max-width: 560px) {
+  header ._content .header-top-flex .header-contact img {
+    padding-right: 8px;
+  }
+  header ._content .header-top-flex .header-contact div {
+    padding-right: 8px;
+  }
+  header ._content .header-top-flex .header-contact div {
+    display: none;
+  }
+  header ._content .header-top-flex .header-contact .tel {
+    display: block;
+  }
   .main .main-text {
     font-size: 12px;
     width: 90%;

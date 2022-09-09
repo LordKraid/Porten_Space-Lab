@@ -1007,6 +1007,13 @@ footer{
 
 @media (max-width: 992px){
     header{
+        ._content .header-top-flex{
+
+            .header-cab{
+                div{display: none;}
+            }
+        }
+
         menu{
             //visibility: hidden;
             display: none;
@@ -1019,6 +1026,7 @@ footer{
                 display: none;
             }
         }
+        
     }
 
     .main{
@@ -1195,6 +1203,20 @@ footer{
 }
 
 @media (max-width: 560px){
+    header{
+        ._content .header-top-flex{
+            .header-contact{
+                img{padding-right: 8px;}
+                div{padding-right: 8px;}
+                div{display: none;}
+
+                .tel{
+                    display: block;
+                }
+            }
+        }
+    }
+
     .main{
         .main-text{
             font-size: 12px;
